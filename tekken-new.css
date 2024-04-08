@@ -21,27 +21,27 @@
 	background-position-x: -512px;
 	}
 
-.custom .fstick .stick.up,
-.custom .fstick .stick.down,
-.custom .fstick .stick.left,
-.custom .fstick .stick.right,
-.custom .fstick .stick.up.right,
-.custom .fstick .stick.up.left,
-.custom .fstick .stick.down.right,
-.custom .fstick .stick.down.left {
+.custom .fstick.up,
+.custom .fstick.down,
+.custom .fstick.left,
+.custom .fstick.right,
+.custom .fstick.up.right,
+.custom .fstick.up.left,
+.custom .fstick.down.right,
+.custom .fstick.down.left {
 	width: 384px;
 	left: -192px;
 	background-position-x: -85px;
 	}
 
-.custom .fstick .stick.up			{ transform: scale(0.5) rotate(270deg);	}
-.custom .fstick .stick.down		{ transform: scale(0.5) rotate(90deg);	}
-.custom .fstick .stick.left		{ transform: scale(0.5) rotate(180deg);	}
-.custom .fstick .stick.right		{ transform: scale(0.5) rotate(0deg);	}
-.custom .fstick .stick.up.right	{ transform: scale(0.5) rotate(315deg);	}
-.custom .fstick .stick.up.left		{ transform: scale(0.5) rotate(225deg);	}
-.custom .fstick .stick.down.right	{ transform: scale(0.5) rotate(45deg);	}
-.custom .fstick .stick.down.left	{ transform: scale(0.5) rotate(135deg); }
+.custom .fstick.up			{ transform: scale(0.5) rotate(270deg);	}
+.custom .fstick.down		{ transform: scale(0.5) rotate(90deg);	}
+.custom .fstick.left		{ transform: scale(0.5) rotate(180deg);	}
+.custom .fstick.right		{ transform: scale(0.5) rotate(0deg);	}
+.custom .fstick.up.right	{ transform: scale(0.5) rotate(315deg);	}
+.custom .fstick.up.left		{ transform: scale(0.5) rotate(225deg);	}
+.custom .fstick.down.right	{ transform: scale(0.5) rotate(45deg);	}
+.custom .fstick.down.left	{ transform: scale(0.5) rotate(135deg); }
 
 
 /*Buttons*/
