@@ -1,16 +1,16 @@
 /*Controller Disconnected*/
-.ds4.disconnected { background: url(https://gamepadviewer.com/stick-assets/disconnected.svgz) no-repeat; }
-.ds4.disconnected div { display: none; }
+.custom .fstick.disconnected { background: url(https://gamepadviewer.com/stick-assets/disconnected.svgz) no-repeat; }
+.custom .fstick.disconnected div { display: none; }
 
 /*Button Panel*/
-.controller.ds4 {
+.controller.custom .fstick {
     background: url(tekken-new.svg) left no-repeat;
     width: 512px;
     height: 256px;
 	}
 
 /*Movement Inputs*/
-.ds4 .stick {
+.custom .fstick .stick {
 	position: absolute;
 	width: 256px;
 	height: 256px;
@@ -21,36 +21,36 @@
 	background-position-x: -512px;
 	}
 
-.ds4 .stick.up,
-.ds4 .stick.down,
-.ds4 .stick.left,
-.ds4 .stick.right,
-.ds4 .stick.up.right,
-.ds4 .stick.up.left,
-.ds4 .stick.down.right,
-.ds4 .stick.down.left {
+.custom .fstick .stick.up,
+.custom .fstick .stick.down,
+.custom .fstick .stick.left,
+.custom .fstick .stick.right,
+.custom .fstick .stick.up.right,
+.custom .fstick .stick.up.left,
+.custom .fstick .stick.down.right,
+.custom .fstick .stick.down.left {
 	width: 384px;
 	left: -192px;
 	background-position-x: -832px;
 	}
 
-.ds4 .stick.up			{ transform: scale(0.5) rotate(270deg);	}
-.ds4 .stick.down		{ transform: scale(0.5) rotate(90deg);	}
-.ds4 .stick.left		{ transform: scale(0.5) rotate(180deg);	}
-.ds4 .stick.right		{ transform: scale(0.5) rotate(0deg);	}
-.ds4 .stick.up.right	{ transform: scale(0.5) rotate(315deg);	}
-.ds4 .stick.up.left		{ transform: scale(0.5) rotate(225deg);	}
-.ds4 .stick.down.right	{ transform: scale(0.5) rotate(45deg);	}
-.ds4 .stick.down.left	{ transform: scale(0.5) rotate(135deg); }
+.custom .fstick .stick.up			{ transform: scale(0.5) rotate(270deg);	}
+.custom .fstick .stick.down		{ transform: scale(0.5) rotate(90deg);	}
+.custom .fstick .stick.left		{ transform: scale(0.5) rotate(180deg);	}
+.custom .fstick .stick.right		{ transform: scale(0.5) rotate(0deg);	}
+.custom .fstick .stick.up.right	{ transform: scale(0.5) rotate(315deg);	}
+.custom .fstick .stick.up.left		{ transform: scale(0.5) rotate(225deg);	}
+.custom .fstick .stick.down.right	{ transform: scale(0.5) rotate(45deg);	}
+.custom .fstick .stick.down.left	{ transform: scale(0.5) rotate(135deg); }
 
 
 /*Buttons*/
-.ds4 .button,
-.ds4 .start,
-.ds4 .back,
-.ds4 .stick,
-.ds4 .bumper,
-.ds4 .trigger-button {
+.custom .fstick .button,
+.custom .fstick .start,
+.custom .fstick .back,
+.custom .fstick .stick,
+.custom .fstick .bumper,
+.custom .fstick .trigger-button {
 	top: 0px;
 	right: 0px;
     position: absolute;
@@ -66,21 +66,21 @@
 /* MODIFY VALUES FOR background-position-x: BELOW TO SET YOUR BUTTON MAPPINGS */
 /* LIST OF background-position-x: VALUES BELOW */
 
-	/*X / Square	*/ .ds4 .button.x.pressed { opacity: 1;	background-position-x: -512px;	} /*1*/
-	/*Y / Triangle	*/ .ds4 .button.y.pressed { opacity: 1;	background-position-x: -1024px;	} /*2*/
-	/*A / Cross		*/ .ds4 .button.a.pressed { opacity: 1;	background-position-x: -1536px;	} /*3*/
-	/*B / Circle	*/ .ds4 .button.b.pressed { opacity: 1;	background-position-x: -2048px;	} /*4*/
+	/*X / Square	*/ .custom .fstick .button.x.pressed { opacity: 1;	background-position-x: -512px;	} /*1*/
+	/*Y / Triangle	*/ .custom .fstick .button.y.pressed { opacity: 1;	background-position-x: -1024px;	} /*2*/
+	/*A / Cross		*/ .custom .fstick .button.a.pressed { opacity: 1;	background-position-x: -1536px;	} /*3*/
+	/*B / Circle	*/ .custom .fstick .button.b.pressed { opacity: 1;	background-position-x: -2048px;	} /*4*/
 
-	/*RB / R1	*/ .ds4 .bumper.right.pressed			{ opacity: 1;	background-position-x: -8192px;	} /*HEAT*/
-	/*RT / R2	*/ .ds4 .trigger-button.right.pressed	{ opacity: 1;	background-position-x: -8704px;	} /*RAGE*/
-	/*RS / R3	*/ .ds4 .stick.right.pressed				{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
+	/*RB / R1	*/ .custom .fstick .bumper.right.pressed			{ opacity: 1;	background-position-x: -8192px;	} /*HEAT*/
+	/*RT / R2	*/ .custom .fstick .trigger-button.right.pressed	{ opacity: 1;	background-position-x: -8704px;	} /*RAGE*/
+	/*RS / R3	*/ .custom .fstick .stick.right.pressed				{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
 
-	/*LB /L1	*/ .ds4 .bumper.left.pressed				{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
-	/*LT /L2	*/ .ds4 .trigger-button.left.pressed		{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
-	/*LS /L3	*/ .ds4 .stick.left.pressed				{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
+	/*LB /L1	*/ .custom .fstick .bumper.left.pressed				{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
+	/*LT /L2	*/ .custom .fstick .trigger-button.left.pressed		{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
+	/*LS /L3	*/ .custom .fstick .stick.left.pressed				{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
 
-	/*Start (Menu) / Options*/ .ds4 .start.pressed		{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
-	/*Back (View) / Touchpad*/ .ds4 .back.pressed		{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
+	/*Start (Menu) / Options*/ .custom .fstick .start.pressed		{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
+	/*Back (View) / Touchpad*/ .custom .fstick .back.pressed		{ opacity: 1;	background-position-x: 0px;	} /*NONE*/
 
 			/* COPY AND PASTE INTO CUSTOM CSS TO HERE */
 			/* COPY AND PASTE INTO CUSTOM CSS TO HERE */
